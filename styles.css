@@ -1,0 +1,109 @@
+/* styles.css */
+
+/* Reset some default browser styles */
+body, h1, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+header {
+  background: rgb(255, 255, 255);
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.headline-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.headline-image {
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  padding: 20px;
+}
+
+.header-board {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center the content */
+}
+
+.headline-srs {
+  display: inline-block; /* Align items in the center */
+  text-align: center; /* Center text inside */
+}
+
+.imgn {
+  max-width: 700px; /* Increase image size */
+  height: auto;
+  margin-bottom: 20px; /* Space between image and text */
+}
+
+.headline-title {
+  font-size: 36px; /* Increase title size */
+  color: #333;
+  margin-top: 0;
+}
+/* styles.css */
+
+/* Existing CSS */
+
+footer {
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.footer-container p {
+  margin: 0;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+.footer-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+
+.brief {
+  font-size: 10px; /* Adjust brief text size */
+  color: #666;
+  margin-top: 10px;
+}
